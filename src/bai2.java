@@ -5,6 +5,7 @@ public class bai2 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhap vao 1 so nguyen: ");
         int soNguyen = scanner.nextInt();
+        System.out.println();
         switch (soNguyen){
             case 0: System.out.println("->Không"); break;
             case 1: System.out.println("->Một"); break;
